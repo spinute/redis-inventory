@@ -3,11 +3,12 @@ package scanner
 import (
 	"context"
 	"errors"
-	"github.com/obukhov/redis-inventory/src/adapter"
 	"testing"
 
-	"github.com/obukhov/redis-inventory/src/trie"
+	"github.com/spinute/redis-inventory/src/adapter"
+
 	"github.com/rs/zerolog"
+	"github.com/spinute/redis-inventory/src/trie"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
 )

@@ -1,14 +1,15 @@
 package renderer
 
 import (
-	"code.cloudfoundry.org/bytefmt"
 	"encoding/json"
 	"errors"
-	"github.com/hetiansu5/urlquery"
-	"github.com/obukhov/redis-inventory/src/server"
-	"github.com/obukhov/redis-inventory/src/trie"
 	"sort"
 	"strings"
+
+	"code.cloudfoundry.org/bytefmt"
+	"github.com/hetiansu5/urlquery"
+	"github.com/spinute/redis-inventory/src/server"
+	"github.com/spinute/redis-inventory/src/trie"
 )
 
 // NewChartRendererParams creates ChartRendererParams

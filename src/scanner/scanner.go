@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/obukhov/redis-inventory/src/adapter"
-	"github.com/obukhov/redis-inventory/src/trie"
 	"github.com/rs/zerolog"
+	"github.com/spinute/redis-inventory/src/adapter"
+	"github.com/spinute/redis-inventory/src/trie"
 )
 
 // RedisServiceInterface abstraction to access redis

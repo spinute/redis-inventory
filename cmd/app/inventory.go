@@ -5,12 +5,12 @@ import (
 	"os"
 
 	"github.com/mediocregopher/radix/v4"
-	"github.com/obukhov/redis-inventory/src/adapter"
-	"github.com/obukhov/redis-inventory/src/logger"
-	"github.com/obukhov/redis-inventory/src/renderer"
-	"github.com/obukhov/redis-inventory/src/scanner"
-	"github.com/obukhov/redis-inventory/src/trie"
 	"github.com/spf13/cobra"
+	"github.com/spinute/redis-inventory/src/adapter"
+	"github.com/spinute/redis-inventory/src/logger"
+	"github.com/spinute/redis-inventory/src/renderer"
+	"github.com/spinute/redis-inventory/src/scanner"
+	"github.com/spinute/redis-inventory/src/trie"
 )
 
 var scanCmd = &cobra.Command{

@@ -2,9 +2,10 @@ package renderer
 
 import (
 	"bytes"
-	"github.com/obukhov/redis-inventory/src/trie"
-	"github.com/stretchr/testify/suite"
 	"testing"
+
+	"github.com/spinute/redis-inventory/src/trie"
+	"github.com/stretchr/testify/suite"
 )
 
 type JSONRendererTestSuite struct {

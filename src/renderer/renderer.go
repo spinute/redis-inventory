@@ -2,10 +2,11 @@ package renderer
 
 import (
 	"errors"
-	"github.com/obukhov/redis-inventory/src/server"
-	"github.com/obukhov/redis-inventory/src/trie"
-	"github.com/rs/zerolog"
 	"os"
+
+	"github.com/rs/zerolog"
+	"github.com/spinute/redis-inventory/src/server"
+	"github.com/spinute/redis-inventory/src/trie"
 )
 
 // Renderer abstraction for rendering trie to a given output

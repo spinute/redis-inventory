@@ -2,10 +2,11 @@ package renderer
 
 import (
 	"encoding/json"
-	"github.com/hetiansu5/urlquery"
-	"github.com/obukhov/redis-inventory/src/trie"
 	"io"
 	"strings"
+
+	"github.com/hetiansu5/urlquery"
+	"github.com/spinute/redis-inventory/src/trie"
 )
 
 // NewJSONRendererParams creates JSONRendererParams

@@ -5,7 +5,7 @@ updates:
     directory: "/"
     pull-request-branch-name:
       separator: "-"
-    reviewers: ["obukhov"]
+    reviewers: ["spinute"]
     schedule:
       interval: "daily"
     open-pull-requests-limit: 2
@@ -14,7 +14,7 @@ updates:
     directory: "/"
     pull-request-branch-name:
       separator: "-"
-    reviewers:  ["obukhov"]
+    reviewers:  ["spinute"]
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5

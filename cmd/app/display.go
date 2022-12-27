@@ -2,11 +2,12 @@ package app
 
 import (
 	"encoding/json"
-	"github.com/obukhov/redis-inventory/src/logger"
-	"github.com/obukhov/redis-inventory/src/renderer"
-	"github.com/obukhov/redis-inventory/src/trie"
-	"github.com/spf13/cobra"
 	"os"
+
+	"github.com/spf13/cobra"
+	"github.com/spinute/redis-inventory/src/logger"
+	"github.com/spinute/redis-inventory/src/renderer"
+	"github.com/spinute/redis-inventory/src/trie"
 )
 
 var displayCmd = &cobra.Command{

@@ -1,9 +1,10 @@
 package renderer
 
 import (
+	"testing"
+
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/suite"
-	"testing"
 )
 
 type RendererTestSuite struct {

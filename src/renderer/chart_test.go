@@ -2,12 +2,13 @@ package renderer
 
 import (
 	"encoding/xml"
-	"github.com/obukhov/redis-inventory/src/trie"
-	"github.com/stretchr/testify/mock"
-	"github.com/stretchr/testify/suite"
 	"io"
 	"strings"
 	"testing"
+
+	"github.com/spinute/redis-inventory/src/trie"
+	"github.com/stretchr/testify/mock"
+	"github.com/stretchr/testify/suite"
 )
 
 type ChartRendererTestSuite struct {

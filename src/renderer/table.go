@@ -1,17 +1,18 @@
 package renderer
 
 import (
-	"code.cloudfoundry.org/bytefmt"
 	"fmt"
-	"github.com/hetiansu5/urlquery"
-	"github.com/jedib0t/go-pretty/v6/table"
-	"github.com/jedib0t/go-pretty/v6/text"
-	"github.com/obukhov/redis-inventory/src/trie"
-	"golang.org/x/text/message"
 	"io"
 	"sort"
 	"strconv"
 	"strings"
+
+	"code.cloudfoundry.org/bytefmt"
+	"github.com/hetiansu5/urlquery"
+	"github.com/jedib0t/go-pretty/v6/table"
+	"github.com/jedib0t/go-pretty/v6/text"
+	"github.com/spinute/redis-inventory/src/trie"
+	"golang.org/x/text/message"
 )
 
 var p = message.NewPrinter(message.MatchLanguage("en"))
